@@ -1,0 +1,77 @@
+.ef-card {
+  --border: 1px solid;
+  display:block;
+  box-sizing:border-box;
+}
+
+body {
+  background-color:#F7F4EA;
+}
+
+.circle-face{
+  display: inline-block;
+  border: none solid #C3EEE6;
+  background-color: #C3EEE6;
+  border-radius: 50%;
+  width: 200px; 
+  height: 200px;
+  margin-top: 25px;                /* 30px forehead space */
+}
+.circle-face > *{
+  display: inline-block;
+  width: 200px;
+  height: 225px;                   /* by 30px higher */
+  margin-top: -25px;               /* and offset by 30px */
+  background: none no-repeat center bottom / 225px;
+  border-radius: 0 0 100px 100px;    /* 70 + 70 = 140px width */
+  -- box-shadow: 0 0 0 4px red;    /* UNCOMMENT TO SEE THE TRICK */
+}
+
+.player-name {
+  margin-top:24px;
+  margin-bottom:48px;
+  font-size:24px;
+}
+.player-grid{
+  margin-top:60px;
+}
+.blockquote-footer {
+  margin-top:20px;
+}
+.blockquote {
+  font-size:1.75rem;
+  margin-top:30px;
+}
+.navbar {
+  background-color:#F7F4EA!important;
+}
+
+a {
+  color:#0D4540;
+}
+
+.facts {
+  margin:24px 0px 24px 0px;
+}
+
+.fact-title {
+  font-weight: bold;
+}
+
+.fact-item {
+  margin-bottom:0.1rem;
+}
+
+.link-menu {
+  margin-top:2.5rem;
+  margin-bottom:1.5rem;
+}
+
+#player-page-info {
+  margin-top:2rem;
+}
+
+.player-action {
+  padding:0;
+}
+
